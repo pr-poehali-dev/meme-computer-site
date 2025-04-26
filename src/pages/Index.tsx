@@ -117,7 +117,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="terminal">
               <p className="mb-2 text-green-400">$ Почему HTML это не язык программирования?</p>
-              <p className="text-yellow-300">$ Потому что ему не хватает цикла while(alive) { findErrors(); fixBugs(); }</p>
+              <p className="text-yellow-300">$ Потому что ему не хватает цикла while(alive) {'{'} findErrors(); fixBugs(); {'}'}</p>
             </div>
             
             <div className="terminal">
